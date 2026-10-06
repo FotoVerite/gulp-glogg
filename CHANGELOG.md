@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.0.0 (2026-10-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* Normalize repository, dropping node <10.13 support ([#5](https://github.com/FotoVerite/gulp-glogg/issues/5))
+
+### Features
+
+* Emit all arguments when first argument is not a string ([#7](https://github.com/FotoVerite/gulp-glogg/issues/7)) ([578a2aa](https://github.com/FotoVerite/gulp-glogg/commit/578a2aaf1138e54f6e6e555bfbe555dd3f82fd35))
+* Re-emit messages from legacy namespace on new namespace ([#9](https://github.com/FotoVerite/gulp-glogg/issues/9)) ([88350e4](https://github.com/FotoVerite/gulp-glogg/commit/88350e44603b24b7b8295ee996a7afa7ba90ccb6))
+
+
+### Bug Fixes
+
+* Allow destructuring the individual log methods (fixes [#3](https://github.com/FotoVerite/gulp-glogg/issues/3)) ([ac6bfd1](https://github.com/FotoVerite/gulp-glogg/commit/ac6bfd17674c36d12ef978d8c936b01c9ea49611))
+
+
+### Miscellaneous Chores
+
+* Normalize repository, dropping node &lt;10.13 support ([#5](https://github.com/FotoVerite/gulp-glogg/issues/5)) ([8bb6148](https://github.com/FotoVerite/gulp-glogg/commit/8bb6148c061e0f11ea9330924e954c39af7f02b6))
+
 ## [2.2.0](https://www.github.com/gulpjs/glogg/compare/v2.1.0...v2.2.0) (2024-03-23)
 
 
